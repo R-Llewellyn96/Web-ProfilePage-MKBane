@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- UoL Profile page by Ryan Llewellyn -->
+
+    <!-- Meta Data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Computer Science Faculty Profile">
+    <meta name="author" content="Michael Bane">
+    <meta name="keywords" content="UoL, Liverpool, University, CS, Faculty, Staff, Lecturers">
+    <meta name="subject" content="Computer Science Faculty">
+    <meta name="language" content="EN">
+    <meta name="publisher" content="University of Liverpool">
+    <meta name="revised" content="Wednesday, November 25th, 2020, 14:00">
+    <meta name="classification" content="education">
+    <meta name="owner" content="University of Liverpool">
+    <meta name="url" content="https://www.liverpool.ac.uk/computer-science/staff/">
+    <meta name="identifier-url" content="https://www.liverpool.ac.uk/computer-science/staff/">
+    <meta name="coverage" content="worldwide">
+    <meta name="distribution" content="global">
+    <meta name="rating" content="general">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="WebDeveloper" content="Ryan Llewellyn">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge, chrome=1">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="152x152" href="img/apple-touch-icon-152x152.png">
+    <link rel="icon" type="image/png" sizes="57x57" href="img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="152x152" href="img/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="57x57" href="img/apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/ico" sizes="16x16" href="img/favicon.ico">
+
+    <!-- Website Title -->
+    <title>Michael Bane Profile</title>
+
+    <!-- Import Bootstrap core css -->
+   <link href="css/bootstrap.css" rel="stylesheet" id="bootstrap-css" media="screen">
+
+    <!-- Import Javascript -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Import Font Awesome -->
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="fontawesome/css/brands.min.css">
+    <link rel="stylesheet" href="fontawesome/css/solid.min.css">
+
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <!-- Navbar Logo -->
+    <a class="navbar-brand" href="https://www.liverpool.ac.uk/">
+        <img src="img/full-colour.svg" alt="" height="50px" width="200px">
+    </a>
+
+</nav>
+
+<!-- Lower navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark shadow-sm" id="lowerNav">
+        <a class="nav-link" href="https://www.liverpool.ac.uk/computer-science/staff/">< Faculty Staff</a>
+</nav>
+
+<!-- Content container -->
+    <div class="container">
+        <div class="row profile">
+
+            <!-- Sidebar Column and Card -->
+            <div class="col-lg-3" id="sidebar-card">
+                <div class="card mb-4 shadow-sm">
+                    <div class="sidebar">
+
+                        <!-- Sidebar Profile Picture -->
+                        <div class="text-center" id="sidebar-img">
+                                <img src="img/mkbane.png" class="rounded-circle img-thumbnail" alt="" title="Michael Bane">
+                        </div>
+
+
+                        <!-- Sidebar Name and Job -->
+                        <div id="sidebar-text-align">
+                            <div class="sidebar-nameJob">
+                                <p>
+                                    Michael Bane
+                                </p>
+                                <p>
+                                    Department: Computer Science<br>
+                                    Occupation: University Lecturer<br>
+                                    Specialty: High Performance Computing<br>
+                                    Office: Ashton Building, G14<br>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Sidebar contact buttons -->
+                        <div class="sidebar-buttons">
+                            <a href="#" class="fas fa-envelope" title="Email" data-toggle="modal" id="emailBtn"><p> Email</p></a>
+                            <a href="#" class="fas fa-phone-alt" title="Telephone Number" data-toggle="modal" id="phoneBtn"><p> Call</p></a>
+                        </div>
+                        <div class="sidebar-buttons">
+                            <a href="https://www.twitter.com/mkbane_hec" class="fab fa-twitter" title="Twitter"></a>
+                            <a href="https://www.linkedin.com/in/mkbane/index.html" class="fab fa-linkedin-in" title="LinkedIn"></a>
+                            <a href="https://www.github.com" class="fab fa-github" title="Github"></a>
+                        </div>
+
+
+                        <!-- Sidebar Menu -->
+                        <ul class="nav flex-column" id="SidebarMenu">
+                            <li class="nav-item active">
+                                <a class="nav-link" id="firstTag" href="#">
+                                    Overview </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="secondTag"  href="#">
+                                    My Students </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="thirdTag" href="#" target="_blank">
+                                    Selected Recent Publications </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Content Area -->
+            <div class="col-lg-9">
+
+                <!-- 12 section of main content area -->
+                <div class="col-xs-12">
+                    <div class="card mb-4 shadow-sm" id="main-content-shadow">
+
+                        <!-- Email Modal -->
+                        <div class="modal fade" id="emailModal" role="dialog">
+                            <div class="modal-dialog">
+
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Email</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+
+                                    <!-- Modal Text -->
+                                    <div class="modal-body">
+                                        <p>Email: m.k.bane@liverpool.ac.uk</p>
+                                        <a href="mailto:m.k.bane@liverpool.ac.uk" class="fas fa-envelope" title="Email" id="modalMailBtn"><p> Email</p></a>
+                                    </div>
+
+                                    <!-- Modal Footer -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Phone Modal -->
+                        <div class="modal fade" id="phoneModal" role="dialog">
+                            <div class="modal-dialog">
+
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Telephone</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+
+                                    <!-- Modal Text -->
+                                    <div class="modal-body">
+                                        <p>Telephone: +44 151 000 0000</p>
+                                        <a href="tel:+441510000000" class="fas fa-phone-alt" title="Call" id="modalCallBtn"><p> Call</p></a>
+                                    </div>
+
+                                    <!-- Modal Footer -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Main content -->
+                        <div class="main-content" id="main-content-card">
+
+                            <!-- Title -->
+                            <h4 id="textTitle">Warning, Javascript not enabled!</h4>
+
+                            <!-- Separating Line -->
+                            <hr class="mb-4" id="separating-line">
+
+                            <!-- Text Body -->
+                            <P id="textBody">Javascript is required to view this web page, please enable JavaScript in your browser.<br>
+                                If JavaScript is enabled in your browser but you're still seeing this message please update to a modern browser.<br>
+                                Download a modern browser below:<br> </P>
+
+                            <!-- Browser download links -->
+                            <div id="browserLinks">
+                                <a class="fab fa-edge" href="https://www.microsoft.com/en-us/edge" title="Microsoft Edge"><p> Microsoft Edge</p></a><br>
+                                <a class="fab fa-chrome" href="https://www.google.com/chrome" title="Google Chrome"><p> Google Chrome</p></a><br>
+                                <a class="fab fa-firefox" href="https://www.mozilla.org/en-GB" title="Mozilla Firefox"><p> Mozilla Firefox</p></a><br>
+                                <a class="fab fa-opera" href="https://www.opera.com" title="Opera Browser"><p> Opera</p></a><br>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="footer fixed-bottom border-top">
+        <div class="row">
+            <div class="col-12 col-md" id="footerLogo">
+                <a class="d-block mb-3 text-muted"><img class="mb-2" src="img/full-colour.svg" alt="" width="150" height="50">&copy;2020</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+<script>
+
+    const title1 = "Overview";
+
+    const text1 = "" +
+        "<p>I am a <a href=\"https://cgi.csc.liv.ac.uk/~mkbane/mkbane_SF_HEA.pdf\">Senior Fellow of the HEA</a>. My teaching at Liverpool currently focuses on HPC (high performance computing), Data Science/Big Data and AI, with my research centred on energy efficient perfomant computing. I am a member Infrastructure subgroup of 'Digital' Research Theme at the University of Liverpool, supported the UG Year in Industry Placements for the Department of Computer Science (2019-2020), am the contact point for HPC within the Computer Science department.\n" +
+        "<p>\n" +
+        "<p>I'd be happy to receive enquiries for PhD candidancy in the topics discussed below.\n</p>" +
+        "<h5>Teaching Related:</h5>" +
+        "<ul>\n" +
+        "      <li><a href=\"https://cgi.csc.liv.ac.uk/~mkbane/COMP328/\">COMP328: High Performance Computing</a> (<em>access may available upon request</em>)\n" +
+        "      <li><a href=\"https://cgi.csc.liv.ac.uk/~mkbane/COMP528/\">COMP528 module</a> - Multi-core & Multi-processor Computing. Covering HPC on CPU, GPU and maybe FPGA. (<em>access may available upon request</em>)\n" +
+        "      <li>COMP530 module (Big Data Group Projects) - applying HPC and ML techniques to so called \"big data\". The materials for this course are available via the <a href=\"https://vital.liv.ac.uk/webapps/blackboard/execute/announcement?method=search&context=course&course_id=_798072_1&handle=cp_announcements&mode=cpview\">University's \"VITAL\" online learning system</a>. \n" +
+        "      <li>expanding the MSc including enhancement of the industrial elements, via increased numbers of companies involved - various parts of this module involve projects and demos for the students: if you are a company or research institution and would like to discuss potential work with some excellent students, then please <a href=\"mailto:m.k.bane@liverpool.ac.uk\">email me</a>\n" +
+        "      <li>exploring teaching of elements of the MSc to wider audiences</li>\n" +
+        "      <li><a href=\"https://cgi.csc.liv.ac.uk/~mkbane/hpc-pedagogy/index.html\">the pedagogy of HPC and related matters</a> \n" +
+        "      <li><a href=\"https://cgi.csc.liv.ac.uk/~mkbane/t_and_s/index.html\">my Teaching/Scholarship pages</a>, including <b>tips of remote teaching &amp; learning</b> and <b>SAM .v. VITAL</b></li>\n" +
+        "</ul>" +
+        "<h5>Research Related:</h5>" +
+        "<ul>\n" +
+        "      <li>performance-portable CPU|FPGA \n" +
+        "      </li><li>energy efficient compute: I am currently working with partners to submit Royal Society and EPSRC Fellowship grants</li>\n" +
+        "      <li>extending the boundaries of quantum computing<ul>\n" +
+        "\t   <li>investigator of \"@LivUni Quantum Computing Network\"\n" +
+        "           </li><li>materials from QLM/myQLM training (26Nov with Atos) available upon request</li>" +
+        "</ul>" +
+        "</ul>\n" +
+        "<h5>HPC, AI, Data Science, Big Data Resources:</h5>" +
+        "<ul>\n" +
+        "      <li><a href=\"https://cgi.csc.liv.ac.uk/~mkbane/facilities/index.html\">HPC Facilities available to UoL Research and Teaching </a></li>\n" +
+        "  <li><a href=\"https://teams.microsoft.com/l/team/19%3ae806ef0ece2c41829a13ec1220085f68%40thread.tacv2/conversations?groupId=d119f467-0a05-4b4d-9a5f-33bc57fe9ddb&tenantId=53255131-b129-4010-86e1-474bfd7e8076\">MS Teams team for students interested in entering HPC, AI & Data Science competitions</a></li>\n" +
+        "</ul>\n" +
+        "<h5>positions of responsibility:</h5>" +
+        "<ul>\n" +
+        "<li>member of Infrastructure subgroup of UoL's \"Digital\" Research Theme</li>" +
+        "<li>manager, <a href=\"http://cais.liverpool.ac.uk/\">Centre for AI Solutions (CAIS)</a></li>\n" +
+        "<li>Student Placement Coordinator 2019/2020</li>" +
+        "<li>Deputy Chair, Industrial Liaison Committee</li>" +
+        "</ul>\n" +
+        "<h5>Positions in a Personal Capacity:</h5>" +
+        "<ul>\n" +
+        "      <li>Chair of <a href=\"https://emit.tech\">EMiT (Emerging Tech)</a> conference series. <a href=\"https://emit.tech/wp-content/uploads/2019/05/emit2019-proceedings.pdf\">most recent proceedings</a></li>\n" +
+        "      <li>Founder of <a href=\"https://highendcompute.co.uk\">High End Compute Ltd</a> - including <a href=\"https://highendcompute.co.uk/Training\">online HPC training</a> including <a href=\"https://highendcompute.co.uk/NERC-OMP/hec_introParProg/story.html\">parallel programming primer</a></li>" +
+        "</ul>";
+
+    const title2 = "My Students";
+
+    const text2 = "Current and recent students, and their work, include:\n" +
+        "<ul>" +
+        "<li>Konstantinos Panagiotis ALEXANDRIDIS - PhD candidate 2019-2023\n" +
+        "  <li>Hamed ALGHAMDI - MSc 2019-2020, The role of Cloud for Efficient HPC Pedagogy\n" +
+        "  <li>Matthew CARTER - MSc 2018-2019 Dissertation, \"<a href=\"MSc/2018-2019/MatthewCarter_MSc2019_FPGA_FinanceOptionPricing.pdf\">Determination of the Usability of FPGA Technology to Accelerate Option Pricing Algorithms</a>\", Univ. of Liverpool (Sept 2019). Matthew was a 2018-2019 winner of the \"Ann Maybrey Prize\" for excellent performance as evidenced by obtaining the highest overall marks during his MSc \n" +
+        "  <li>Tsung-Ta \"Jeffrey\" HSIEH - MSc 2018-2019, Dissertation, \"<a href=\"MSc/2018-2019/TsungTaHsieh_MSc2019_FPGA_Eigenvalues.pdf\">Determination of the Usability of FPGA Technology to Accelerate Process of Solving Eigenvalues and Eigenvectors</a>\", Univ. of Liverpool (Sept 2019)\n" +
+        "  <li>Chris JONES - MSc 2019-2020, CFD on FPGA\n" +
+        "  <li>Ryan LLEWELLYN - MSc 2019-2020, Using ML for Improved Energy Efficient Computing" +
+        "</ul>";
+
+
+    const title3 = "Selected Recent Publications";
+
+    const text3 = "<ul>\n" +
+        "<li>2020: \"<a href=\"https://sc20.supercomputing.org/presentation/?id=ws_eduhpcl105&sess=sess224\">Evolving the Traditional Student Cluster Competition as Tomorrow’s “Peachy Assignments”</a>, <a href=\"https://sc20.supercomputing.org/session/?sess=sess224\">EduHPC20: Workshop on Education for High-Performance Computing\n" +
+        "</a>, Supercomputing 2020." +
+        "<li>2019: \"<a href=\"https://emit.tech/wp-content/uploads/2019/05/emit2019-proceedings.pdf\">Proceedings of the 2019 Emerging Technology Conference</a>\". Editors: M.K.Bane and V.Holmes, ISBN 978-0-9933426-4-6\n" +
+        "</li><li>2019: <a href=\"https://ukopenmpusers.co.uk/\">UK OpenMP Users Conference</a>: \"Lessons from Coarse Grained OpenMP Parallelisation and Code Optimisations to Accelerate Quantum Computational Chemistry FORTRAN90 Code 'FFLUX'\", Benjamin Symons and Paul Popelier, University of Manchester. Michael Bane, <a href=\"https://highendcompute.co.uK\" target=\"_blank\">High End Compute Ltd</a>\n" +
+        "</li><li>2018:  <a href=\"https://2018.isc-program.com/presentation/?id=proj111&amp;sess=sess144\">Energy Efficient Computing Research at STFC Hartree Centre</a>, Michael Bane, poster, ISC2018\n" +
+        "</li><li>2017: \"<a href=\"http://meetingorganizer.copernicus.org/EGU2017/EGU2017-12246.pdf\">Accelerating activity coefficient calculations using multicore platforms, and profiling the energy use resulting from such calculations</a>\", David Topping, Irfan Alibay, and Michael Bane, EGU2017-12246. (2017)\n" +
+        "</li><li>2016: \"FEREBUS: Highly Parallelized Engine for Kriging Training\", N. Di Pasquale, M. Bane, S.J. Davie and P.L.A. Popelier, J. Comput.Chem., 37, 2606-2616 (2016).</li>\n" +
+        "<li>2016: “<a href=\"https://emit.tech/EMiT2016/EMiT2016_proceedings.pdf\">Proceedings of the EMerging Technology (EMiT) Conference 2016</a>. Editors: B.D.Rogers, D.Topping, F.Mantovani, M.K.Bane. ISBN 978-0-9933426-3-9”\n" +
+        "</li><li>2016: \"<a href=\"https://www.geosci-model-dev.net/9/899/2016/\">UManSysProp: An online facility for molecular property prediction and atmospheric aerosol calculations</a>\", D.O. Topping, M. Barley, M. Bane, N.J. Higham, B. Aumont, and G. McFiggans, Geosci. Model. Dev. 9, 899-914, 2016\n" +
+        "</li><li>2015: <a href=\"https://emit.tech/wp-content/uploads/2015/10/EMiT_2015_Abstracts_Taster.pdf\">Proceedings of the EMerging Technology (EMiT) Conference 2015</a>. ISBN 978-0-9933426-0-8\n" +
+        "</li><li>2013: <a href=\"https://highendcompute.co.uk/sites/default/files/Chris-Baume-In-The-Mood-for-Music.pdf\">Case Study: BBC - In the Mood for Music\"</a>a case study of HTC (high throughput) work I undertook for <a href=\"http://www.bbc.co.uk/rd\">BBC R&amp;D</a> to reduce time to analyse 128,000 music files from estimated 1.5 years to just 6 hours\n" +
+        "</li><li>2008: \"<a href=\"http://www.sciencedirect.com/science/article/pii/S1364815207001727\">Development and illustrative outputs of the Community Integrated Assessment System (CIAS), a multi-institutional modular integrated assessment approach for modelling climate change</a>\", Environmental Modelling &amp; Software, 23(5). (<em>EMS \"best paper\" Award</em>)\n" +
+        "</li><li>2006: R.W. Ford, G.D. Riley, M.K. Bane, C.W. Armstrong and T.L. Freeman (2006), \"<a href=\"http://onlinelibrary.wiley.com/doi/10.1002/cpe.910/pdf\">GCF: a General Coupling Framework\", Concurrency and Computation: Practice &amp; Experience</a>, (John Wiley &amp; Sons), vol. 18, no. 2, pp163-181. doi:10.1002/cpe.910. (PDF may require registration)\n" +
+        "</li><li>2005: Elliot, M. J., Manning, A., Mayes, K., Bane, M. and Gurd,J., (2005) \"SUDA: a program for identifying and grading special uniques\". Proceedings of UNECE worksession of statistical Data Confidentiality, Geneva, November 2005.\n" +
+        "</li><li> 2002: Michael K Bane and Graham D Riley, \"<a href=\"https://books.google.co.uk/books?id=cXVrCQAAQBAJ&amp;pg=PA162&amp;dq=euro-par+2002+parallel+progressing&amp;source=gbs_toc_r&amp;cad=3#v=onepage&amp;q=euro-par%202002%20parallel%20progressing&amp;f=false\">Extended Overhead Analysis for OpenMP</a>” in Euro-Par 2002 Parallel Processing, 8th International EuroPar Conference, Paderborn, Germany, Aug 2002.\n" +
+        "</li><li>2001: M.K. Bane, M.D. Mihajlovic (2001), “<a href=\"http://www.cs.man.ac.uk/~milan/cp8.ps\">A Fast Parallel Solver for the Biharmonic Problem</a>”, Proceedings of the Tenth SIAM Conference on Parallel Processing for Scientific Computing, Portsmouth, Virginia USA, 2001\n" +
+        "</li><li>2000: M.K. Bane and G.R. Riley, “Automatic Overheads Profiler for OpenMP Codes” EWOMP2000 conference, 14-15 Sept. 2000, University of Edinburgh.\n" +
+        "</li><li>2000: M.K. Bane, R. Keller, M. Pettipher &amp; I. Smith (2000) \"A Comparison of MPI and OpenMP Implementations of a Finite Element Analysis Code\" Cray User Group 22-26 May 2000, Noordwijk NL\n" +
+        "</li><li>1992: M.K. Bane and T.L. Freeman, (1992) “Asynchronous Algorithms for  Calculating Polynomial Zeros” in  “Parallel Computing: Problems, Methods and Applications”, ed. Messina, P. and Murli, A., Elsevier, Amsterdam, pp. 53-62.\n" +
+        "</li><li>1991: T.L. Freeman and M.K. Bane, “Asynchronous Polynomial Zero-Finding Algorithms”. Parallel Computing 17, pp. 673-681, 1991.\n" +
+        "</li><li>1991: M.K. Bane and T.L. Freeman,  “Implementation of Parallel Asynchronous Iterative Methods in occam” in “Applications of Transputers III”, ed. Durrani, T.S., et al, I.O.S., Amsterdam, 1991.\n" +
+        "</li><li>1990: T.L. Freeman and M.K. Bane, “An occam Implementation of an Asynchronous Algorithm for Calculating Polynomial Zeros” in “Applications of Transputers II”, ed. Pritchard, D.J. and Scott, C.J., I.O.S., Amsterdam, pp. 533-540, 1990\n" +
+        "</li></ul>";
+
+
+    //This function doesnt do anything, but it stops web caching so dont remove
+    window.onunload = function(){
+    };
+
+    //function called on page load, jQuery
+    $(document).ready(function() {
+
+        //Load first menu content on window load
+        $("#textTitle").html(title1);
+        $("#textBody").html(text1);
+        $("#browserLinks").css("display", "none");
+
+
+        //Toggle menu items
+        $('.nav li a').click(function(e) {
+
+            //remove active tag from active menu item
+            $('.nav li.active').removeClass('active');
+
+            //set active tag to clicked menu item
+            var $parent = $(this).parent();
+            $parent.addClass('active');
+            e.preventDefault();
+
+            //grab id value for clicked menu item
+            const menuID = $(this).attr("id");
+
+            //check which menu item was clicked and add corresponding text to DOM
+            if (menuID === "firstTag") {
+                $("#textTitle").html(title1);
+                $("#textBody").html(text1);
+            } else if (menuID === "secondTag") {
+                $("#textTitle").html(title2);
+                $("#textBody").html(text2);
+            } else if (menuID === "thirdTag") {
+                $("#textTitle").html(title3);
+                $("#textBody").html(text3);
+            }
+
+        });
+
+        //Activate modals on click
+        $("#emailBtn").click(function(){
+            $("#emailModal").modal();
+        });
+
+        $("#phoneBtn").click(function(){
+            $("#phoneModal").modal();
+        });
+
+    });
+
+</script>
+
+</html>
