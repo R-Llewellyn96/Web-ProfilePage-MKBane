@@ -125,6 +125,14 @@
                                 <a class="nav-link" id="thirdTag" href="#" target="_blank">
                                     Selected Recent Publications </a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="fourthTag" href="#" target="_blank">
+                                    Pedagogy of HPC and Related Matters </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="fifthTag" href="#" target="_blank">
+                                    Teaching and Learning of HPC, AI, Big Data and other CompSci matters </a>
+                            </li>
                         </ul>
 
                     </div>
@@ -233,6 +241,7 @@
 
 <script>
 
+    //Titles and Texts for sections go here, observation of naming standards is required.
     const title1 = "Overview";
 
     const text1 = "" +
@@ -316,6 +325,79 @@
         "</li><li>1990: T.L. Freeman and M.K. Bane, “An occam Implementation of an Asynchronous Algorithm for Calculating Polynomial Zeros” in “Applications of Transputers II”, ed. Pritchard, D.J. and Scott, C.J., I.O.S., Amsterdam, pp. 533-540, 1990\n" +
         "</li></ul>";
 
+    const title4 = "Pedagogy of HPC and Related Matters";
+
+    const text4 = "<p>I have been interested in teaching HPC and related matters for over 3 decades, and this page will bring together links and ideas related to such pedagogy. I am hoping to spin out a website dedicated to pedagogy of HPC in the UK and have set up a mailing list to discuss related matters.\n" +
+        "</p>\n" +
+        "<p>Firstly a personal view on terms. \"HPC\" is used throughout this website, but by HPC I mean so much more than \"high performance computing\", but have yet to find what I consider a better term (ideas are welcome!). Traditionalists will equate HPC with Supercomputing, but I see HPC as any computing that has higher performance than what one was doing previously - it's a step on a journey, and a journey that may have differing paths. Such paths may lead to supercomputing, or they may lead to the use of emerging technologies (FPGAs for example) or the use of new algorithms and techniques (mixed precision for example). To me, HPC also encompasses the likes of AI, Deep Learning, Machine Learning, Monte Carlo, HTC and their ilk.\n" +
+        "</p>\n" +
+        "<p>I am currently supervising a final year UG project and an MSc project (in association with <a href=\"https://azure.microsoft.com/en-gb/\">MS Azure</a>), each evaluating different elements of improving teaching HPC by employing cloud resources. \n" +
+        "</p>" +
+        "<h5>Useful Resources:</h5>\n" +
+        "<p>Please share further ideas via contacting me as below:\n" +
+        "</p>" +
+        "<ol>\n" +
+        "  <li><a href=\"https://cgi.csc.liv.ac.uk/~mkbane/t_and_s/\">REMOTE TEACHING & LEARNING FAQ (some U/Liverpool specifics)</a>\n" +
+        "  <li><a href=\"https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=HPC-PEDAGOGY\">Email list</a>\n" +
+        "  <li><a href=\"news_events.html\">News, Events</a>\n" +
+        "</ol>\n" +
+        "<h5>Specific to HPC:</h5>\n" +
+        "<ul>\n" +
+        "  <li>[Brown2010] Brown, R., Shoop, E., Adams, J., et al. Strategies for Preparing Computer Science Students for the Multicore World. Proc. 15th Annual Conf. Innovation and Technology in Computer Science Education (ITiCSE 2010) Working Group Reports, pp. 97-115.\n" +
+        "  <li>[Collis] Toni Collis, Clair Barrass, \"Improving Accessibility  to HPC training\". <a href=\"https://www.hpc-diversity.ac.uk/best-practice-guide/best-practice-guide-training\">https://www.hpc-diversity.ac.uk/best-practice-guide/best-practice-guide-training</a>\n" +
+        "  <li> [Holmes 2015] - Violeta Holmes, Ibad Kureshi, “Developing High Performance Computing Resources for Teaching Cluster and Grid Computing Courses”, Procedia Computer Science, Volume 51, 2015, Pages 1714-1723, ISSN 1877-0509. <a href=\"https://doi.org/10.1016/j.procs.2015.05.310\">https://doi.org/10.1016/j.procs.2015.05.310</a>\n" +
+        "  <li>[Higgins2018] - Joshua Higgins, Taha Al-Jody and Violeta Holmes, “ Rapid Deployment of Bare-Metal and In-Container HPC clusters using OpenHPC playbooks”, <a href=\"https://sc18.supercomputing.org/proceedings/workshops/workshop_sessions.html#sess157\">SC18 HPCSYSP workshop</a>\n" +
+        "  <li>[Shoop2012] Elizabeth Shoop, Richard Brown, Eric Biggers, Malcolm Kane, Devry Lin, and Maura Warner. 2012. Virtual clusters for parallel and distributed education. In Proceedings of the 43rd ACM technical symposium on Computer Science Education (SIGCSE '12). ACM, New York, NY, USA, 517-522. DOI: <a href=\"https://doi.org/10.1145/2157136.2157287\">https://doi.org/10.1145/2157136.2157287</a>\n" +
+        "\n" +
+        "</ul>" +
+        "<h5>UK Cases for Support of HPC Upskilling:</h5>\n" +
+        "<ul>\n" +
+        "  <li><a href=\"materials/HPC-SIG_Report2010.pdf\">HPC SIG Report (2010)</a>\n" +
+        "  <li>NeI (National eInfrastructure) Survey 2017, on behalf of PDG (Programme Directors Group): \"Report of 2017 UK National e-Infrastructure Survey of HEIs and Research Institutes\", Martin Hamilton (Jisc/NeI PDG), Paul Hatton (Birmingham/HPC-SIG), Clare Jenner (UCL/DiRAC/NeI PDG), Jacky Pallas (KCL/eMedLab/Farr/NeI PDG), Alan Real (Durham/N8/HPC-SIG),Jeremy Yates (UCL/DiRAC/SKA/NeI PDG). Available: <a href=\"https://hpc-sig.org.uk/wp-content/uploads/2017/NeIS-Survey-2017-Report.pdf\">https://hpc-sig.org.uk/wp-content/uploads/2017/NeIS-Survey-2017-Report.pdf</a>\n" +
+        "  <li>EMiT (emerging tech): #EMiT2019 panel discussion\n" +
+        "</ul>" +
+        "<h5>Pedagogy of Related Topics:</h5>\n" +
+        "<p>General pedagogical discussions are not covered here but we welcome resources related to teaching computer science, teaching AI/DL/ML/Data Science, teaching technical computing, teaching high end computing, and others related to high performance computing\n" +
+        "</p>" +
+        "<ul>\n" +
+        "  <li>[Hale1998] Hake, Richard R. \"Interactive-engagement versus traditional methods: A six-thousand-student survey of mechanics test data for introductory physics courses.\" American journal of Physics 66.1 (1998): 64-74.<br>(<em>quantitative data re improvement in learning uptake due to use of interactions during lectures</em>)\n" +
+        "  <li>[Kyprianidou2012] Kyprianidou, M., Demetriadis, S., Tsiatsos, T. et al. Education Tech Research Dev (2012) 60: 83. DOI: <a href=\"https://doi.org/10.1007/s11423-011-9215-4\">https://doi.org/10.1007/s11423-011-9215-4</a></li>\n" +
+        "  <li>[Layman2007] Layman, Lucas, Laurie Williams, and Kelli Slaten. \"Note to self: make assignments meaningful.\" ACM SIGCSE Bulletin. Vol. 39. No. 1. ACM, 2007.\n" +
+        "  <li>[Layman2006] Lucas Layman, Travis Cornwell, and Laurie Williams, Laurie Williams. 2006. Personality types, learning styles, and an agile approach to software engineering education. SIGCSE Bull. 38, 1 (March 2006), 428-432. DOI: <a href=\"https://doi.org/10.1145/1124706.1121474\">https://doi.org/10.1145/1124706.1121474</a>\n" +
+        "</ul>" +
+        "<h5>Other Resources:</h5>\n" +
+        "<p>Organisations:\n</p>" +
+        "<ul>\n" +
+        "  <li>UK: <a href=\"https://www.archer.ac.uk\">Archer</a>, <a href=\"https://emit.tech\">EMiT</a>, <a href=\"https://highendcompute.co.uk/training\">HEC</a>, <a href=\"https://hpc-sig.org.uk\">HPC-SIG</a>, UK HPC\n" +
+        "  <li>Europe:\n" +
+        "    <ul>\n" +
+        "      <li>\"Workshop on HPC Education and Training for Emerging Technologies\", workshop at ISC19, Germany, June 2019\n" +
+        "    </ul>\n" +
+        "  <li>US:\n" +
+        "    <ul>\n" +
+        "      <li><a href=\"http://sigcse.org/sigcse/\">ACM SIGCSE</a>\n" +
+        "      <li>CASC\n" +
+        "      <li>workshop at SC\n" +
+        "      <li>SIGHPC\n" +
+        "    </ul>\n" +
+        "  <li>Other:\n" +
+        "</ul>";
+
+        const title5 = "Teaching and Learning of HPC, AI, Big Data and other CompSci matters";
+
+        const text5 = "<h5>Useful links:</h5>\n" +
+            "<ul>\n" +
+            "  <li><a href=\"https://www.smartsurvey.co.uk/s/NG56SS/\">Michael's survey on approaches to remote teaching due to Covid-19</a>\n" +
+            "  <li>The University of Liverpool’s Centre for Innovation in Education (CIE) has been making available <a href=\"https://www.liverpool.ac.uk/centre-for-innovation-in-education/\">materials to support the move to remote teaching</a>\n" +
+            "  <li>Canvas / Canvas Studio:<ul>\n" +
+            "      <li><a href=\"https://liverpool.instructure.com/courses/306\">UoL Canvas help pages</a></li>\n" +
+            "      <li><a href=\"canvas.html\">CompSci FAQ on use of Canvas and Canvas Studio</a></li>\n" +
+            "      </ul>\n" +
+            "  <li><a href=\"vital_sam.html\">Tips for VITAL and Comparison with SAM</a>\n" +
+            "  <li><a href=\"remoteTeaching.html\">tips from UoL CompSci on remote teaching</a> including MS Teams, Presentations, Hybrid Teaching ...\n" +
+            "  <li><a href=\"https://cgi.csc.liv.ac.uk/~mkbane/hpc-pedagogy/index.html\">HPC Pedagogy</a>\n" +
+            "</ul>";
+
 
     //This function doesnt do anything, but it stops web caching so dont remove
     window.onunload = function(){
@@ -354,6 +436,12 @@
             } else if (menuID === "thirdTag") {
                 $("#textTitle").html(title3);
                 $("#textBody").html(text3);
+            }  else if (menuID === "fourthTag") {
+                $("#textTitle").html(title4);
+                $("#textBody").html(text4);
+            }  else if (menuID === "fifthTag") {
+                $("#textTitle").html(title5);
+                $("#textBody").html(text5);
             }
 
         });
