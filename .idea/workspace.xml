@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59e043e5-62ab-4a10-b674-7a0cdff0f93a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="59e043e5-62ab-4a10-b674-7a0cdff0f93a" name="Default Changelist" comment="Added pedagogy and HPC teaching pages, fixed." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,11 +43,34 @@
       <option name="presentableId" value="Default" />
       <updated>1606313310236</updated>
       <workItem from="1606313311280" duration="3379000" />
-      <workItem from="1606737730140" duration="1395000" />
+      <workItem from="1606737730140" duration="1540000" />
     </task>
+    <task id="LOCAL-00001" summary="Added pedagogy and HPC teaching pages.">
+      <created>1606739192409</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606739192409</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added pedagogy and HPC teaching pages." />
+    <MESSAGE value="Added pedagogy and HPC teaching pages, fixed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added pedagogy and HPC teaching pages, fixed." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="990" y="272" key="CommitChangelistDialog2" timestamp="1606739244666">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="990" y="272" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1606739244666" />
+    <state x="969" y="437" key="Vcs.Push.Dialog.v2" timestamp="1606739195438">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="969" y="437" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1606739195438" />
   </component>
 </project>
